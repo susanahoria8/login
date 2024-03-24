@@ -1,0 +1,166 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+}
+
+.container-yellow, .container-login, .container {
+  height: 200px;
+}
+
+.flex{
+  display: flex;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 17px 1px rgba(0,0,0,0.34);
+}
+
+.container-yellow, .container-login{
+  width: 500px;
+  height: auto;
+
+}
+
+.container-yellow{
+  background-color: #ffb345ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.container-login{
+  background-color: #fffbf3ff;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circulo{
+  background-color: #fa9c2aff;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+p{
+  color: white;
+  font-family: Open Sans;
+  font-size: 20px;
+  width: 380px;
+  text-align: center;
+}
+
+.img{
+  width: 360px;
+  height: 360px;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: #f79324ff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin: 40px;
+}
+
+h2{
+  color: #478afeff;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px;
+  font-size: 30px;
+}
+
+h1, h2{
+  font-family: 'Poppins';
+}
+
+h4{
+  margin: 2%;
+  text-align: center;
+}
+.data{
+  margin: 20px 20px 0px 20px;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+}
+
+.option, .link{
+  color: #478afeff;
+  align-items: center;
+  font-size: 20px;
+  gap: 15px;
+
+
+}
+
+
+.option, .data, .action {
+  display: flex;
+  flex-direction: column;
+}
+
+.action{
+  gap: 20px;
+  align-items: center;
+  margin: 5%;
+}
+
+button{
+  background-color: #7ab6fcff;
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: #13678A;
+}
+.margin{
+  margin: 40px;
+}
+.email, .password, .name, .last-name{
+  background-color: #b4d2fcff;
+  border: none;
+  color: #064591ff;
+  border-radius: 5px;
+}
+.email::placeholder, .password::placeholder, .name::placeholder, .last-name::placeholder { color: #064591ff; }
+
+.name, .last-name{
+  min-width: 100px;
+}
+
+.full-name{
+  display: flex;
+}
+
+.enlace{
+  background-color: transparent;
+  color: #478afeff;
+  text-decoration: underline;
+}
+
+.enlace:hover{
+  background-color: transparent;
+}
+.debajo{
+  
+}
